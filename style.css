@@ -22,7 +22,10 @@
   left: 580px;
   animation: cactusMov 2s infinite linear;
 }
-
+#scope{
+    position: relative;
+    box-sizing: border-box;
+}
 @keyframes cactusMov {
   0% {
     left: 580px;
@@ -33,12 +36,12 @@
 }
 
 .jump {
-  animation: jump 0.3s linear;
+  animation: jump 0.4s linear;
 }
 
 @keyframes jump {
   0% {
-    top: 150px;
+    top: 150px; 
   }
   30% {
     top: 120px;
